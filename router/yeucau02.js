@@ -1,6 +1,5 @@
 
 const fs = require('fs')
-const { FILE } = require('dns')
 
 function handleRouteLab01(res) {
   res.writeHead(200, {'Content-Type': 'text/html'})        
@@ -78,13 +77,7 @@ function main(res, uri){
     handleRouteLab02(res)
     return 
   }
-  let status = handleFilePublic(res, uri)
-  if(status) {
-    return  
-  } else {
-    return 
-  }
-
+  handleFilePublic(res, uri)
 }
 
 module.exports = {
