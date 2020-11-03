@@ -1,0 +1,231 @@
+.dropdown-content2 > ul > li:not(:last-child),
+.dropdown-content3 > ul > li:not(:last-child),
+.dropdown-content4 > ul > li:not(:last-child),
+.dropdown-content5 > ul > li:not(:last-child),
+.dropdown-content6 > ul > li:not(:last-child),
+.dropdown-content7 > ul > li:not(:last-child) {
+  border-bottom: 1px dotted rgb(122, 118, 118);
+}
+/* 1. menu trang chủ */
+.dropdown-content {
+  z-index: 0;
+  position: relative;
+  width: 130px;
+  height: 60px;
+  padding-left: 0;
+  color: rgb(207, 214, 221);
+}
+fieldset {
+  border: none;
+}
+fieldset > *:not(#form-login-remember) {
+  display: flex;
+  flex-direction: column;
+}
+
+.child-content {
+  background-color: #1e68a5;
+  border-bottom: solid 2px #1a629c;
+  width: 150px;
+  height: 90px;
+  z-index: 100;
+}
+.child-content > ul {
+  padding: 3px 3px;
+}
+
+.dropdown-content > li {
+  background-color: #1d81d5;
+  box-shadow: 0 0 10px -2px gray;
+  width: 130px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-content > li > a {
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  color: rgb(208, 216, 224);
+  padding: 0 3px;
+  border-bottom: 2px solid #1b68a7;
+}
+
+.logincontent {
+  background-color: #1d81d5;
+  width: 200px;
+  box-shadow: 0 0 10px -2px gray;
+  display: grid;
+  grid-auto-rows: auto;
+  padding: 0 7px 10px 3px;
+  margin: 0;
+  height: 280px;
+  z-index: 9;
+  position: absolute;
+  left: 90px;
+  top: 40px;
+}
+
+/* 2. menu tin tức */
+.dropdown-content2 {
+  width: 380px;
+  height: 160px;
+  background-color: #1d81d5;
+  display: grid;
+  grid-template-columns: 180px 180px;
+  float: left;
+  padding: 13px 3px;
+  grid-gap: 5px;
+}
+.dropdown-content2 > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 13px;
+}
+/* 3. menu giới thiệu */
+.dropdown-content3 {
+  width: 190px;
+  height: 230px;
+  background-color: #1d81d5;
+  display: grid;
+  padding: 13px 3px;
+}
+
+.dropdown-content3 > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 13px;
+}
+/* 4. menu tuyển sinh */
+.dropdown-content4 {
+  width: 500px;
+  height: 100px;
+  background-color: #1d81d5;
+  display: grid;
+  grid-template-columns: 160px 160px 180px;
+  float: left;
+  padding: 13px 3px;
+  grid-gap: 0px;
+}
+.dropdown-content4 > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 13px;
+}
+/* 5. menu đào tạo */
+.dropdown-content5 {
+  width: 500px;
+  height: 200px;
+  background-color: #1d81d5;
+  display: grid;
+  grid-template-columns: 160px 160px 180px;
+  padding: 13px 3px;
+  grid-gap: 0px;
+}
+.dropdown-content5 > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 13px;
+}
+/* 6. menu nghiên cứu */
+.dropdown-content6 {
+  width: 190px;
+  height: 130px;
+  background-color: #1d81d5;
+  display: grid;
+  padding: 13px 3px;
+}
+
+.dropdown-content6 > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 13px;
+}
+/* 7. menu các đơn vị */
+.dropdown-content7 {
+  width: 650px;
+  height: 250px;
+  background-color: #1d81d5;
+  display: grid;
+  grid-template-columns: 180px 160px 160px 140px;
+  float: left;
+  padding: 13px 3px;
+}
+.dropdown-content7 > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 13px;
+}
+/* thanh bar */
+#main-menu > li > a:hover {
+  background-color: rgb(40, 123, 172);
+}
+
+#main-menu {
+  display: grid;
+
+  height: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  grid-template-columns: repeat(9, 100px);
+}
+#main-menu > li {
+  height: 44px;
+}
+#main-menu > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+ul {
+  list-style: none outside none;
+}
+
+h3 {
+  line-height: 25px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+}
+#menu-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+#menu-desc {
+  color: rgb(207, 214, 221);
+  border-bottom: 1px solid rgb(122, 118, 118);
+}
