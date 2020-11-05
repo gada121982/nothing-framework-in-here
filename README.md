@@ -7,9 +7,9 @@
 bash install-docker.sh
 ```
 
-### Bước 2. Run file compose
+### Bước 2. Run project
 ```
-docker-compose up
+bash start.sh
 ```
 
 
