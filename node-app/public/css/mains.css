@@ -1,0 +1,166 @@
+a {
+  color: white;
+  font-size: 11px;
+}
+.MenuTop {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.MenuTop li {
+  display: inline;
+  font-size: 12px;
+  color: #333;
+  padding: 0 10px 0 0;
+}
+
+.MenuTop li a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.BgLine {
+  height: 28px;
+  width: 1px;
+  background: #ccc;
+}
+
+.Outer {
+  width: 950px;
+  height: 1805px;
+  margin: 0 auto;
+  z-index: -999;
+}
+
+.Header {
+  width: 940px;
+  margin: 0 auto;
+  height: 110px;
+}
+
+.Header .BlockLogo {
+  margin: 21px 0 0 0;
+  float: left;
+}
+
+.Logo {
+  float: left;
+  margin: 0 0 0 0;
+}
+
+.HeaderInfo {
+  float: right;
+  overflow: hidden;
+  padding: 20px 0 0 0;
+}
+
+.InfoRight {
+  text-align: right;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+table.InfoRight tr td {
+  padding: 0;
+}
+
+table tr td {
+  padding: 4px;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.Language {
+  padding: 0 0 0 13px;
+}
+
+.Language a {
+  font-size: 1.2em;
+  color: #333;
+  text-decoration: none;
+}
+
+.IcoLanguage {
+  margin: 0 5px 0 0;
+}
+
+.SearchBlock {
+  background: url(/web/20150315121629im_/http://www.uit.edu.vn/templates/uit/images/bg-search-input.png)
+    no-repeat;
+  width: 190px;
+  min-height: 30px;
+  overflow: hidden;
+  margin: 26px 0 0 0;
+}
+
+.SearchBlock input {
+  width: 140px;
+  font-size: 1.1em;
+  color: #909090;
+  border: none;
+  background: none;
+  float: left;
+  margin: 5px 0 0 8px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.search {
+  color: #333333;
+  font-size: 1.2em;
+  line-height: 24px;
+}
+
+.NaviMenu {
+  background: url(http://web-old.archive.org/web/20150316200405im_/http://www.uit.edu.vn/templates/uit/images/bg-navi-menu.png)
+    no-repeat left top;
+  width: 940px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.NaviMenu li {
+  z-index: 99;
+  color: white;
+}
+
+.NaviMenu a {
+  color:  white!important;
+  z-index: 999;
+}
+
+.moduletable {
+  padding: 5px 0 5px 10px;
+  line-height: 24px;
+}

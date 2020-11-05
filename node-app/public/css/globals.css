@@ -1,0 +1,403 @@
+body {
+  font: 62.5%/20px Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #000;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  outline: none;
+}
+
+img {
+  border: none;
+}
+
+html > body .Wrapper {
+  overflow: hidden;
+  height: auto;
+}
+
+.Wrapper {
+  overflow: visible;
+  height: 1%;
+}
+
+input,
+select,
+textarea {
+  font: 100% Verdana, Tahoma, Helvetica, sans-serif;
+}
+
+input {
+  vertical-align: baseline;
+  margin: -1px -2px;
+}
+
+html > body input {
+  vertical-align: text-bottom;
+  margin: 0px;
+}
+
+.Banner {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 7px 0 0 0;
+  z-index: 0;
+}
+
+.nivoo-slider,
+.nivoo-slider-holder {
+  height: 343px;
+  overflow: hidden;
+  position: relative;
+  width: 940px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  z-index: 0;
+}
+
+.nivoo-slider-holder {
+  background-image: url('http://web-old.archive.org/web/20150103230026im_/http://www.uit.edu.vn/templates/uit/slideshow/Mua_xuan_yeu_thuong_2014_1.jpg');
+}
+
+.nivoo-slider-holder a:link,
+a:visited {
+  text-decoration: none;
+  color: #1f83d7;
+}
+
+.nivoo-slider-holder a {
+  outline: none;
+}
+
+.nivoo-slider img,
+.nivoo-link {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.nivoo-slider-holder img {
+  border: none;
+  height: 343px;
+  width: 940px;
+}
+
+.nivoo-slider p {
+  bottom: -30px;
+  color: #fff;
+  background: #867f7f;
+  height: 50px;
+  line-height: 50px;
+  left: 0;
+  margin: 0;
+  text-indent: 10px;
+  position: absolute;
+  width: 100%;
+  z-index: 30;
+  background-image: url(http://web-old.archive.org/web/20141229174118im_/http://www.uit.edu.vn/templates/uit/slideshow/black-opacity-40.png);
+  font-size: 14px;
+}
+
+.nivoo-slider .direction-nav-left {
+  height: 343px;
+  width: 40px;
+}
+
+.direction-nav-left,
+.direction-nav-right {
+  position: absolute;
+  top: 0;
+  z-index: 40;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.direction-nav-left {
+  left: 0;
+  height: 40px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: url(http://web-old.archive.org/web/20141229174118im_/http://www.uit.edu.vn/templates/uit/slideshow/left.png)
+    no-repeat 50% 50%;
+}
+
+.direction-nav-left a,
+.direction-nav-right a {
+  display: block;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #1f83d7;
+}
+
+a {
+  outline: none;
+}
+
+.MainContent {
+  width: 950px;
+  overflow: hidden;
+  float: left;
+}
+
+.BlockNew {
+  width: 950px;
+  height: 118px;
+  margin: 10px 0 0 0;
+}
+
+.BlockEvent {
+  width: 205px;
+  padding: 7px 0 0 17px;
+  float: left;
+  margin-top: 14px;
+  background: #1f83d7;
+  border-radius: 10px;
+}
+
+.TitleEvent .MoreEvent1 {
+  background: url(http://web-old.archive.org/web/20150315121629im_/http://www.uit.edu.vn/templates/uit/images/ico-more.png)
+    no-repeat right center;
+  padding-right: 14px;
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.AvartaEvent {
+  width: 193px;
+  height: 55px;
+  display: block;
+  margin: 7px 0 6px 0;
+  overflow: hidden;
+}
+
+.AvartaEvent img {
+  border: none;
+}
+
+.latestnews {
+  padding-top: 6px;
+}
+
+.BlockNew .jxtcnews {
+  padding: 0 7px 0px 8px;
+  border-right: 1px solid #dfdede;
+  max-width: 165px;
+  min-height: 105px;
+  min-width: 166px;
+  max-height: 105px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.Content {
+  /* width: 950px; */
+  width: auto;
+  float: left;
+  overflow: hidden;
+  margin: 15px 0 0 0;
+  position: relative;
+}
+
+.ContentLeft {
+  width: 320px;
+  float: left;
+  overflow: hidden;
+}
+
+html > body .Wrapper {
+  overflow: hidden;
+  height: auto;
+}
+
+.Wrapper .TitleBlock {
+  font-family: 'UVNGiayTrangBold';
+  font-size: 2.4em;
+  line-height: 28px;
+  color: #666666;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 0 16px;
+  clear: both;
+}
+
+.Content p {
+  /* float: left; */
+  font-size: 1.2em;
+  line-height: 20px;
+  color: #333333;
+  overflow: hidden;
+  margin: 3px 0;
+}
+
+.Block01 {
+  width: 310px;
+  background: url(http://web-old.archive.org/web/20150315121629im_/http://www.uit.edu.vn/templates/uit/images/bg-bottom-block-1.jpg)
+    no-repeat left bottom;
+  padding: 0 0 13px 0;
+  position: relative;
+  float: left;
+}
+
+.Block01 .Blocktop01 {
+  width: 310px;
+  background: url(http://web-old.archive.org/web/20150315121629im_/http://www.uit.edu.vn/templates/uit/images/bg-top-block-1.jpg)
+    no-repeat left top;
+  height: 12px;
+}
+
+.Block01 .BlockContent01 {
+  background: url(http://web-old.archive.org/web/20150315121629im_/http://www.uit.edu.vn/templates/uit/images/bg-loop-block-1.jpg)
+    repeat-y left top;
+  padding: 0 17px 0 22px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.HeightContent {
+  /* min-height: 422px; */
+}
+
+a.TitleBlockRight {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #1f83d7;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 5px 0 14px 0;
+  text-decoration: none;
+}
+
+.jxtcdate {
+  font-size: 1.2em;
+  color: #333333;
+}
+
+.AbBottom {
+  width: 270px;
+  overflow: hidden;
+  /* position: absolute; */
+  bottom: 0;
+  left: 21px;
+}
+
+.ListNewBellow {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0 8px 0;
+  overflow: hidden;
+}
+
+.ListNewBellow li {
+  background: url(http://web-old.archive.org/web/20150315121629im_/http://www.uit.edu.vn/templates/uit/images/ico-list-new.png)
+    no-repeat left 6px;
+  margin: 0;
+  padding: 0 0 0 7px;
+  font: normal 1.2em/14px Arial, Helvetica, sans-serif;
+  line-height: 18px;
+}
+
+.ListNewBellow li a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.DateIcon {
+  bottom: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 270px;
+}
+
+.DateIcon .Date {
+  color: #999999;
+  font-size: 1.2em;
+  float: left;
+  position: absolute;
+  bottom: 2px;
+}
+
+.DateIcon .IconLogo {
+  background: url(http://web-old.archive.org/web/20150316204031im_/http://www.uit.edu.vn/templates/uit/images/ico-small-logo.jpg)
+    no-repeat left top;
+  width: 43px;
+  height: 45px;
+  float: right;
+  margin-right: 18px;
+}
+
+.WrapPad {
+  padding-top: 20px;
+}
+.Wrapper {
+  overflow: visible;
+  height: 1%;
+}
+
+.ContentCenter {
+  float: left;
+  overflow: hidden;
+  /* width: 320px; */
+  width: auto;
+}
+
+.ContentRight {
+  width: 310px;
+  float: right;
+}
+
+.Footer {
+  width: 940px;
+  float: left;
+  padding: 10px 5px 43px 5px;
+}
+
+.FooterTop {
+  background: url(http://web-old.archive.org/web/20150315121629im_/http://www.uit.edu.vn/templates/uit/images/bg-footer1.png)
+    no-repeat left top;
+  width: 940px;
+  height: 102px;
+}
+
+.BgLogo {
+  background: url(http://web-old.archive.org/web/20150315121629im_/http://www.uit.edu.vn/templates/uit/images/logo-footer.png)
+    no-repeat left top;
+  width: 442px;
+  height: 73px;
+  float: left;
+  margin: 14px 0 0 15px;
+}
+
+.Address {
+  float: right;
+  padding: 15px 16px 0 0;
+}
+
+.Address p {
+  font-size: 1.4em;
+  color: #fff;
+  line-height: 18px;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.TxtCopy {
+  text-align: center;
+  color: #999999;
+  font-size: 1.2em;
+  padding: 13px 0 0 0;
+}
