@@ -6,10 +6,8 @@ services:
       container_name: mongo
       hostname: mongo
       image: mongo:3.0.4
-      volumes:
-        - ./restore:/restore
-        - ./backups:/usr/backups:rw
-        - ./data/mongo0:/data/db:rw
+      volumes:  
+        - ./data/mongo:/data/db:rw
         - /var/run/docker.sock:/var/run/docker.sock
       ports:
         - "27017:27017"

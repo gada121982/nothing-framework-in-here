@@ -5,7 +5,6 @@ const fs = require('fs')
  * @param {*} res 
  * @param {string} uri 
  */
-
 function handleFilePublic(res, uri){
  
   if(uri.includes('css')) {

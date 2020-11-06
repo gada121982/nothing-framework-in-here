@@ -1,8 +1,5 @@
 const fs = require('fs')
 
-
-
-
 function handleRouteLab01(res) {
   res.writeHead(200, {'Content-Type': 'text/html'})        
   fs.readFile('./public/lab01.html', null, (error, stream) => {
@@ -19,7 +16,6 @@ function handleRouteLab01(res) {
   return 
 }
 
-
 function handleRouteLab02(res) {
   res.writeHead(200, {'Content-Type': 'text/html'})        
   fs.readFile('./public/lab02.html', null, (error, stream) => {
@@ -30,13 +26,11 @@ function handleRouteLab02(res) {
       res.end()
       return 
     }
-
     res.write(stream)
     res.end()
   })
   return  
 }
-
 
 module.exports = {
   handleRouteLab01,

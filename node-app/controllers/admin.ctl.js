@@ -1,6 +1,5 @@
 const fs = require('fs')
 
-
 function renderAdminPage(res) {
   res.writeHead(200, {'Content-Type': 'text/html'})        
   fs.readFile('./public/index.html', null, (error, stream) => {
@@ -16,7 +15,6 @@ function renderAdminPage(res) {
   })
   return 
 }
-
 
 module.exports = {
   renderAdminPage

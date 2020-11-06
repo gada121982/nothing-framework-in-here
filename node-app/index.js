@@ -6,6 +6,9 @@ const mongoose = require('mongoose')
 
 const URL = 'mongodb://mongo:27017'
 
+// Nếu connect với mongo ở local thì sử dụng URL bên dưới
+//const URL = 'mongodb://localhost:27017'
+
 mongoose
   .connect(URL, {
     useNewUrlParser: true,
