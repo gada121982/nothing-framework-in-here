@@ -4,10 +4,14 @@ const User = require('./model/user.model')
 const mongoose = require('mongoose')
 
 
-const URL = 'mongodb://mongo:27017'
+// Nếu connect với mongo docker container thì sử dụng URL bên dưới
+//const URL = 'mongodb://mongo:27017'
 
 // Nếu connect với mongo ở local thì sử dụng URL bên dưới
 //const URL = 'mongodb://localhost:27017'
+
+// Nếu connect với mongo có data mẫu thì sử dụng URL bên dưới
+const URL = 'mongodb+srv://teamweb:121983@cluster0.4ypxz.mongodb.net/<dbname>?retryWrites=true&w=majority'
 
 mongoose
   .connect(URL, {

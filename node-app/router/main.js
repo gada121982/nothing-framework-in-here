@@ -5,6 +5,8 @@ const { login } = require('../controllers/auth.ctl')
 const { addProduct, getAllProduct, deleteProduct, updateProduct } = require('../controllers/product.ctl')
 function mainRoute(req, res, uri){
 
+
+  console.log(uri)
   if(uri === '/lab01'){
     handleRouteLab01(res)
     return 
@@ -13,6 +15,11 @@ function mainRoute(req, res, uri){
   if (uri === '/lab02'){
     handleRouteLab02(res)
     return 
+  }
+
+  if(uri === '/'){
+    renderAdminPage(res)
+    return
   }
 
   if(uri === '/admin'){
